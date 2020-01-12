@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 2%;
   pointer-events: none;
 }
 
@@ -15,36 +15,39 @@
 
 .App-header {
   background-color: rgba(255, 255, 255, 0.8);
-  position: relative;
-  top: 10%;
-  left: 35%;
-  right: 4%;
-  /*align-items: right;*/
-  justify-content: right;
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  right: 0%;
   font-size: calc(10px + 2vmin);
   color: white;
+  display: inline-block;
 }
+
+img {
+  flex: 1;
+  width: 15%;
+  height: 15%;
+}
+
 
 .light-rec {
   position: absolute;
-  width: 896px;
-  height: 784px;
-  left: 86px;
-  top: -61px;
+  width: 30%;
+  height: 130%;
   background: #CBE2E7;
-  border-radius: 10px;
 }
 
 .dark-rec {
   position: absolute;
-  width: 1009px;
-  height: 733.16px;
-  left: -116.92px;
-  top: -84px;
+  width: 50%;
+  height: 130%;
+  background:#80BBC8;
+}
 
-  background: #80BBC8;
-  border-radius: 50px;
-  transform: rotate(20.86 deg);
+Link, button {
+  background-color: #000000;
+  color: black !important;
 }
 
 .tagline {
@@ -93,7 +96,7 @@
 .btn {
   background-color: white;
   align-content: right;
-  color: black;
+  color: black !important;
   border-color: #CBE2E7;
   margin-right: 4%;
 }
@@ -110,4 +113,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.white-out {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  top: 20%;
+  height: 80%; 
+  background: #ffffff;
+
+}
+
+.form-wrap {
+  position: absolute;
+  text-align: left;
+  left: 50%;
+  top: 20%;
+}
+
+#label {
+  display: inline-block;
+  text-align: left;
 }
